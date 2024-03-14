@@ -1,0 +1,96 @@
+/* Custom CSS for Login Page */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  max-width: 400px;
+  width: 100%;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #555555;
+}
+
+.form-control {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+.invalid-feedback {
+  color: #dc3545;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 15px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Custom CSS for Homepage */
+.homepage-container {
+  padding-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 15px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  color: #333333;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.table tbody tr:hover {
+  background-color: #f0f0f0;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .login-form {
+    padding: 30px;
+  }
+
+  .table {
+    font-size: 14px;
+  }
+}
